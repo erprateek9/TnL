@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SSV1Runner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Sorting.SSV1Runner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
             "name": "TryCatch",
             "request": "launch",
             "mainClass": "exception_handeling.TryCatch",
