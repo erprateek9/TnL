@@ -9,9 +9,9 @@ public class DynamicArrayV1 {
     int last;
     int lastOfTemp2;
 
-    DynamicArrayV1(int sze){
-        arr = new int[sze];
-        size=sze;
+    DynamicArrayV1(){
+        arr = new int[1];
+        size=1;
         last=0;
 
     }
@@ -85,9 +85,9 @@ public class DynamicArrayV1 {
                 opt= new Scanner(System.in);
                 insertSelection= opt.nextInt();
                 if (insertSelection==1){
-                    if((last + temp.length)>arr.length){
+                    if((last + temp.length)>arr.length-1){
                         int newLength=(arr.length)*2;
-                        while(newLength<(last + temp.length)){
+                        while(newLength<=(last + temp.length)){
                             newLength=newLength*2;
                             
                          }
@@ -118,7 +118,7 @@ public class DynamicArrayV1 {
                 else if (insertSelection==2){//append
                     if((last + temp.length)>arr.length){
                         int newLength=(arr.length)*2;
-                        while(newLength<(last + temp.length)){
+                        while(newLength<=(last + temp.length)){
                             newLength=newLength*2;
                             
                          }
@@ -152,9 +152,13 @@ public class DynamicArrayV1 {
                     System.out.println("Enter the index number");
                     Scanner indxCh= new Scanner(System.in);
                     int indexChoice= indxCh.nextInt();
+                    if (indexChoice<0|indexChoice>=last){
+                        System.out.println("INVALID INDEX");
+                        break;
+                    }
                     if((last + temp.length)>arr.length){
                         int newLength=(arr.length)*2;
-                        while(newLength<(last + temp.length)){
+                        while(newLength<=(last + temp.length)){
                             newLength=newLength*2;
                             
                          }
@@ -202,10 +206,15 @@ public class DynamicArrayV1 {
         System.out.println("Enter the index of the element to be deleted");
         Scanner indxCh= new Scanner(System.in);
         int indexChoice= indxCh.nextInt();
-        for(int i=indexChoice;i<last-1;i++){
-            arr[i]=arr[i+1];
+        if (indexChoice<0|indexChoice>=last){
+            System.out.println("INVALID INDEX");
         }
-        last-=1;
+        else{
+            for(int i=indexChoice;i<last-1;i++){
+                 arr[i]=arr[i+1];
+            }
+            last-=1;
+        }
 
     }
 
