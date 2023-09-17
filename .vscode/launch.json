@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lcm",
+            "request": "launch",
+            "mainClass": "Lcm",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
+            "name": "Tester",
+            "request": "launch",
+            "mainClass": "Tester",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
             "name": "SSV1Runner",
             "request": "launch",
             "mainClass": "DSA_with_java.Sorting.SSV1Runner",

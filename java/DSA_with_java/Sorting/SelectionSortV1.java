@@ -8,6 +8,8 @@ public class SelectionSortV1 {
         arr= new int[len];
     }
     void initializer(){
+        
+        
         System.out.println("Generating random values...");
         Random rand= new Random();
         for (int i =0;i<arr.length;i++){
