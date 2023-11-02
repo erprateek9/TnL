@@ -5,6 +5,7 @@ import java.util.Random;
 public class BubbleSortV1 {
    int arr[];
    int len;
+   
    BubbleSortV1(int l){
    len=l;
    arr= new int[len]; 
