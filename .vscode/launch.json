@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BSRunner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Sorting.BSRunner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
             "name": "Lcm",
             "request": "launch",
             "mainClass": "Lcm",

@@ -11,6 +11,8 @@ public class SelectionSortV1 {
         
         
         System.out.println("Generating random values...");
+        
+
         Random rand= new Random();
         for (int i =0;i<arr.length;i++){
             arr[i]= rand.nextInt(1000);
@@ -24,20 +26,21 @@ public class SelectionSortV1 {
         System.out.println("");
     }
     void ascender(){
-        int smallest,temp;
+        int min,loc,temp;
         
-        smallest=arr[0];
-        for (int i= 0;i<arr.length;i++){
-            smallest=i;
+        
+        for (int i= 0;i<arr.length-1;i++){
+            loc=i;min=arr[i];
             for(int j=i+1;j<arr.length;j++){
                 
-                if (arr[smallest]>arr[j]){
-                    smallest=j;
+                if (arr[j]<min){
+                    min=arr[j];
+                    loc=j;
                 }
             }
             temp=arr[i];
-            arr[i]=arr[smallest];
-            arr[smallest]=temp;
+            arr[i]=min;
+            arr[loc]=temp;
 
             
         
@@ -45,21 +48,26 @@ public class SelectionSortV1 {
 
     }
     void decender(){
-        int largest,temp;
+        int max,loc,temp;
         
-        largest=arr[0];
-        for (int i= 0;i<arr.length;i++){
-            largest=i;
-            for(int j=i+1;j < arr.length;j++){
+        
+        for (int i= 0;i<arr.length-1;i++){
+            loc=i;max=arr[i];
+            for(int j=i+1;j<arr.length;j++){
                 
-                if (arr[largest]<arr[j]){
-                    largest=j;
+                if (arr[j]>max){
+                    max=arr[j];
+                    loc=j;
                 }
             }
             temp=arr[i];
-            arr[i]=arr[largest];
-            arr[largest]=temp;
+            arr[i]=max;
+            arr[loc]=temp;
+
+            
+        
         }
+
     }
 
 
