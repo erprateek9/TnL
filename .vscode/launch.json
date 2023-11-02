@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ISRunner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Sorting.ISRunner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
             "name": "BSRunner",
             "request": "launch",
             "mainClass": "DSA_with_java.Sorting.BSRunner",
