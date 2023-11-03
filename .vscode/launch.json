@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LLQRunner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Data_Strucrures.queue.LinkedListQueue.LLQRunner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayQueueRunner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Data_Strucrures.queue.array_queue.ArrayQueueRunner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
             "name": "LinkedListV1",
             "request": "launch",
             "mainClass": "DSA_with_java.Data_Strucrures.Linked_List.LinkedListV1",
