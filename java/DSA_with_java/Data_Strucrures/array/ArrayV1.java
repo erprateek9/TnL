@@ -1,4 +1,4 @@
-package DSA_with_java.array;
+package DSA_with_java.Data_Strucrures.array;
 import java.util.Scanner;
 
 

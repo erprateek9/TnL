@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedListV1",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Data_Strucrures.Linked_List.LinkedListV1",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
+            "name": "DynamicArrayV1Runner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Data_Strucrures.array.DynamicArrayV1Runner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayV1Runner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Data_Strucrures.array.ArrayV1Runner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
             "name": "MSRunner",
             "request": "launch",
             "mainClass": "DSA_with_java.Sorting.MSRunner",

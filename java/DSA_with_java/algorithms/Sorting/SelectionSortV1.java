@@ -1,4 +1,4 @@
-package DSA_with_java.Sorting;
+package DSA_with_java.algorithms.Sorting;
 import java.util.Random;
 public class SelectionSortV1 {
     int arr[];

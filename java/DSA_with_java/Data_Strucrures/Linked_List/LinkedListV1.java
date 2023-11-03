@@ -1,8 +1,9 @@
+package DSA_with_java.Data_Strucrures.Linked_List;
 import java.io.*;
 	
 // Java program to implement
 // a Singly Linked List
-public class LinkedList {
+public class LinkedListV1 {
 	
 	Node head; // head of list
 	
@@ -23,7 +24,7 @@ public class LinkedList {
 	}
 	
 	// Method to insert a new node
-	public static LinkedList insert(LinkedList list, int data)
+	public static LinkedListV1 insert(LinkedListV1 list, int data)
 	{
 		// Create a new node with given data
 		Node new_node = new Node(data);
@@ -51,7 +52,7 @@ public class LinkedList {
 	}
 	
 	// Method to print the LinkedList.
-	public static void printList(LinkedList list)
+	public static void printList(LinkedListV1 list)
 	{
 		Node currNode = list.head;
 	
@@ -71,7 +72,7 @@ public class LinkedList {
 	public static void main(String[] args)
 	{
 		/* Start with the empty list. */
-		LinkedList list = new LinkedList();
+		LinkedListV1 list = new LinkedListV1();
 	
 		//
 		// ******INSERTION******

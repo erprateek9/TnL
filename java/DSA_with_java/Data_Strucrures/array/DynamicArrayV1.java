@@ -1,4 +1,4 @@
-package DSA_with_java.array;
+package DSA_with_java.Data_Strucrures.array;
 import java.util.Scanner;
 
 public class DynamicArrayV1 {
@@ -220,9 +220,9 @@ public class DynamicArrayV1 {
 
     void printer(){
         for (int i=0;i<last;i++){
-            System.out.println(arr[i]);
+            System.out.print(" "+arr[i]);
         }
-
+        System.out.println("");
         
     }
 }

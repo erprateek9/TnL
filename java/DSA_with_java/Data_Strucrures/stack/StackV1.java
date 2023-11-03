@@ -1,3 +1,4 @@
+package DSA_with_java.Data_Strucrures.stack;
 class StackHolder{
     int top;
     int stack[] = new int[10];
@@ -39,7 +40,7 @@ class StackHolder{
 }
 
 
-public class Stack {
+public class StackV1 {
     public static void main(String[] args) {
         StackHolder st1 = new StackHolder();
         for (int x=1;x<=10;x++){

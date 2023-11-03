@@ -1,12 +1,15 @@
-package DSA_with_java.Sorting;
+package DSA_with_java.algorithms.Sorting;
 import java.util.Scanner;
-public class BSRunner {
+public class SSV1Runner {
     public static void main(String[] args) {
-        System.out.println("BUBBLE SORT");
+        
+
+
+        System.out.println("SELECTION SORT");
         System.out.println("Enter the size of array");
         Scanner l= new Scanner(System.in);
         int len = l.nextInt();
-        BubbleSortV1 array= new BubbleSortV1(len);
+        SelectionSortV1 array= new SelectionSortV1(len);
         array.initializer();
         array.printer();
         // choice for sorting
@@ -19,6 +22,7 @@ public class BSRunner {
         else if (choice==2) array.decender();
         else  System.out.println("INVALID CHOICE");
         array.printer();
+ 
  
     }
 }

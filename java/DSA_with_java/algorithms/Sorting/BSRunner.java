@@ -1,14 +1,12 @@
-package DSA_with_java.Sorting;
-
+package DSA_with_java.algorithms.Sorting;
 import java.util.Scanner;
-
-public class MSRunner {
+public class BSRunner {
     public static void main(String[] args) {
-        System.out.println("MERGE SORT");
+        System.out.println("BUBBLE SORT");
         System.out.println("Enter the size of array");
         Scanner l= new Scanner(System.in);
         int len = l.nextInt();
-        MergeSortV1 array= new MergeSortV1(len);
+        BubbleSortV1 array= new BubbleSortV1(len);
         array.initializer();
         array.printer();
         // choice for sorting
@@ -21,5 +19,6 @@ public class MSRunner {
         else if (choice==2) array.decender();
         else  System.out.println("INVALID CHOICE");
         array.printer();
+ 
     }
 }
