@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "DSA_with_java.algorithms.Searching.BinarySearch",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "DSA_with_java.algorithms.Searching.LinearSearch",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
+            "name": "DLLRunner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Data_Strucrures.Linked_List.DLLRunner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
+            "name": "CAQRunner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Data_Strucrures.queue.circular_queue.CAQRunner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
             "name": "LLQRunner",
             "request": "launch",
             "mainClass": "DSA_with_java.Data_Strucrures.queue.LinkedListQueue.LLQRunner",

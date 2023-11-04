@@ -14,11 +14,11 @@ public class ArrayQueueRunner {
             //make the data structure
             if (choice1==1) {
                 // get initial size
-                System.err.println("Enter initial size");
+                System.out.println("Enter initial size");
                 int initialSize= c1.nextInt();
 
                 StaticArrayQueue sq= new StaticArrayQueue(initialSize);
-                System.err.println("Static array queue created ...");
+                System.out.println("Static array queue created ...");
 
                 //menu 2-1
                 Boolean m2_1=true;
