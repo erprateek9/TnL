@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DLLRunner {
     public static void main(String[] args) {
         DoublyLL dll= new DoublyLL();
-        //manu
+        //menu
         Boolean m1=true;
         while (m1){
             System.out.println("Add at front- 1\n"+"Add at rear- 2\n"+"Delete at front- 3\n"+"Delete at rear- 4\n"+"Traverse Farward- 5\n"+"Traverse Backword- 6\n"+"Exit- Any other key");

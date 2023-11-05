@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BSTRunner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Data_Strucrures.tree.BinarySearchTree.BSTRunner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
+            "name": "BSTRunner",
+            "request": "launch",
+            "mainClass": "DSA_with_java.Data_Strucrures.tree.BSTRunner",
+            "projectName": "TnL_3ab34de1"
+        },
+        {
+            "type": "java",
             "name": "BinarySearch",
             "request": "launch",
             "mainClass": "DSA_with_java.algorithms.Searching.BinarySearch",
