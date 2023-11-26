@@ -1,4 +1,4 @@
-package DSA_with_java.Data_Strucrures.queue.circular_queue;
+package dsa_with_java.data_strucrures.queue.circular_queue;
 
 public class CircularArrayQueue {
     int queue[];

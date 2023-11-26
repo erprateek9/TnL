@@ -1,4 +1,4 @@
-package DSA_with_java.Data_Strucrures.tree.BinarySearchTree;
+package dsa_with_java.data_strucrures.tree.BinarySearchTree;
 
 import java.util.Scanner;
 import java.util.Random;

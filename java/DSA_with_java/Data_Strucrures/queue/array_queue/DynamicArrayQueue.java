@@ -1,4 +1,4 @@
-package DSA_with_java.Data_Strucrures.queue.array_queue;
+package dsa_with_java.data_strucrures.queue.array_queue;
 
 public class DynamicArrayQueue {
     int queue[];

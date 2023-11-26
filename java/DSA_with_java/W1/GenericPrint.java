@@ -1,4 +1,4 @@
-package java.DSA_with_java.W1;
+package dsa_with_java.W1;
 class GenericPrint
 {
     <T>void genericPrint(T x)

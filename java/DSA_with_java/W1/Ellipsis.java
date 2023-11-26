@@ -1,4 +1,4 @@
-package java.DSA_with_java.W1;
+package dsa_with_java.W1;
 class Ellipsis{
     public static  void printAnything(Object ... a){
         for (Object x :a){

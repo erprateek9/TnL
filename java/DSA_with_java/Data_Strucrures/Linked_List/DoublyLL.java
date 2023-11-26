@@ -1,4 +1,4 @@
-package DSA_with_java.Data_Strucrures.Linked_List;
+package dsa_with_java.data_strucrures.linked_list;
 
 
 public class DoublyLL {

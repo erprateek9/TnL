@@ -1,4 +1,4 @@
-package DSA_with_java.algorithms.Searching;
+package dsa_with_java.algorithms.searching;
 import java.util.Scanner;
 import java.util.Random;
 public class LinearSearch {

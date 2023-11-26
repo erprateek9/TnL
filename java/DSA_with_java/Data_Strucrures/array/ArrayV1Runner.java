@@ -1,4 +1,4 @@
-package DSA_with_java.Data_Strucrures.array;
+package dsa_with_java.data_strucrures.array;
 import java.util.Scanner;
 
 public class ArrayV1Runner {

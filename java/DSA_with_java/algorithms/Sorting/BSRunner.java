@@ -1,4 +1,4 @@
-package DSA_with_java.algorithms.Sorting;
+package dsa_with_java.algorithms.sorting;
 import java.util.Scanner;
 public class BSRunner {
     public static void main(String[] args) {

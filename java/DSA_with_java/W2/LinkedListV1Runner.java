@@ -1,4 +1,4 @@
-package DSA_with_java.W2;
+package dsa_with_java.W2;
 
 
 

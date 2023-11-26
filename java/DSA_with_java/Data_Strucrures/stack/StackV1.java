@@ -1,4 +1,4 @@
-package DSA_with_java.Data_Strucrures.stack;
+package dsa_with_java.data_strucrures.stack;
 class StackHolder{
     int top;
     int stack[] = new int[10];
