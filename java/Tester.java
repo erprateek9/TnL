@@ -2,7 +2,7 @@ class Tester {
     
    public static int[] findLeapYears(int year){
        //Implement your code here and change the return value accordingly
-	   int count=1,int i=0;
+	   int count=1;int i=0;
 	   int leapYrs[]= new int[15];
 	   while(count<=15){
 			if((year%400==0)||(year%4==0&&year%100!=0)){
